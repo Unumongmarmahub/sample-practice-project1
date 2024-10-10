@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* common class  */
+.button {
+  border-radius: 8px;
+  padding: 16px 25px 16px 25px;
+  background: rgb(82, 195, 3);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  cursor: pointer;
+}
+.btn-container {
+  text-align: center;
+}
+#banner-section {
+  height: 616px;
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner-section .banner-content {
+  width: 685px;
+}
+
+#banner-section .subtitle {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+#banner-section .title {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#banner-section .description {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 22px;
+}
+
+/* main section  */
+
+#card-box {
+  width: 884px;
+  margin: 100px auto;
+}
+#card-box .subtitle {
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#card-box .title {
+  color: rgb(16, 16, 16);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card-container {
+  margin-top: 35px;
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.card .image-box {
+  width: 260px;
+}
+
+.card .image-box img {
+  width: 100%;
+}
+.card .shop {
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  color: rgb(16, 16, 16);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 10px 25px 10px 25px;
+}
+
+.card .discount {
+  color: rgb(16, 16, 16);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card .discount-description {
+  color: rgb(16, 16, 16);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
