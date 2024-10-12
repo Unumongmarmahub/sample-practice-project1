@@ -1,3 +1,4 @@
+/* univercell style  */
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +26,9 @@ body {
 .btn-container {
   text-align: center;
 }
+
+/* style banner section start  */
+
 #banner-section {
   height: 616px;
   background-image: linear-gradient(
@@ -74,7 +78,9 @@ body {
   margin-bottom: 22px;
 }
 
-/* main section  */
+/* style banner section end  */
+/* ------------------------------------------------------------------ */
+/* main section style start */
 
 #card-box {
   width: 884px;
@@ -149,11 +155,54 @@ body {
   opacity: 0.7;
 }
 
+/* main section style end  */
+/* -------------------------------------------------------------- */
+/* style about section  */
+.about-container {
+  height: 450px;
+  display: flex;
+  margin-bottom: 100px;
+  border: 4px solid red;
+  align-items: center;
+  justify-content: center;
+}
+.about-container .img-container {
+  width: 643px;
+  border: 3px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-container .img-container img {
+  width: 100%;
+}
+.about-container .content-container {
+  width: 643px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid greenyellow;
+}
+.content-container .about-contents {
+  width: 100%;
+}
+
+#description-container {
+  background-image: none;
+}
+
+#follow-me {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* about style end  */
+/* -------------------------------------------------------------------- */
 /* footer style start  */
 
 .footer-container {
   height: 218px;
-  background-image: linear-gradient(to bottom,
+  background-image: linear-gradient(
+      to bottom,
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
@@ -186,6 +235,7 @@ body {
   letter-spacing: 0%;
   text-align: center;
   opacity: 0.6;
+  margin-bottom: 20px;
 }
 
 .footer-contents .follow {
@@ -193,9 +243,10 @@ body {
   color: rgb(16, 16, 16);
   font-size: 25px;
   font-weight: 600;
-  line-height: 35px;
+  line-height: 55px;
   letter-spacing: 0%;
   text-align: center;
 }
 
 /* footer style end */
+/* --------------------------------------------------------- */
